@@ -1,0 +1,30 @@
+* {
+  color: #fff;
+  font-family: monospace;
+  font-size: 1.4em;
+  cursor: default;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+#matrix {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#textCustom {
+  background-color: #00000075;
+}
